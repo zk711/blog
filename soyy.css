@@ -1,0 +1,168 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(lawwuud.png) ;
+  background-size: cover ;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Memusatkan logo */
+  background-color: #a182be;
+  border-radius: 30px;
+  margin-top: 10px;
+  margin-left:25px ;
+  margin-right: 25px;
+  
+  
+}
+
+.profile-container {
+  position: absolute; /* Memposisikan foto profil di kiri */
+  left: 45px; /* Jarak dari kiri */
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.logo{
+  color: white;
+font-size: 18px;
+text-align: center;
+
+}
+
+.logo2{
+  color: rgb(215, 200, 235);
+  font-size: 11.7px;
+  position: absolute;
+  right: 50px;
+  top: 22px;
+  
+}
+
+.logo5{
+  color: rgb(215, 200, 235);
+  font-size: 12px;
+  position: absolute;
+  right: 145px;
+  top: 22px;
+
+}
+
+
+.nav-links {
+  margin-left: auto;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+}
+
+.nav-links a:hover {
+  background-color: #575757;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+  .projects {
+    
+    background:transparent;
+    backdrop-filter: blur(35px);
+    border-radius: 30px;
+    margin-top: 50px;
+    margin: 50px 80px;
+    margin-bottom: 10px;
+    
+
+  }
+  .projects h1,    
+  .contact h1,
+  .my-lang h1 {
+    text-align: center;
+    font-size: 2.3rem;
+  }
+  .projects span,
+  .contact span,
+  .my-lang span {
+    color: white;
+  }
+  .projects .card {
+    padding: 2.5rem 1.5rem;
+  }
+  .projects .card .card-title a {
+    color:rgb(253, 246, 246);
+    text-decoration: underline;
+    display: block;
+    line-height: 5rem;
+    font-size: 1.5rem;
+    cursor: none;
+  }
+  .projects .card .card-title a:hover {
+    color: #1b1be9;
+  }
+  .projects .card .card-title a span {
+    float: right;
+    color:var(--card-title);
+  }
+  
+.text22{
+  color: rgb(109, 224, 81);
+}
+.text3{
+  color: red;
+}
+
+footer {
+  
+  color: white;
+  text-align: center;
+  
+}
+
+
+
+
+
+
+  
+  
+  @media (max-width: 458px) {
+    html {
+      font-size: 64%;
+    }
+  }
